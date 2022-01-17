@@ -1,1 +1,5 @@
-FUCK
+STEPS : 
+
+NPM INSTALL 
+
+NPM START 
