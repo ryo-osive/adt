@@ -1,0 +1,160 @@
+.addButton {
+    font-size: 1rem;
+    cursor: pointer;
+    height: 100%;
+    float: left;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addButtonStyle{
+    margin: 1.5em;
+    width: 20%;
+    min-width: 15em;
+    color: white;
+    background-color: #006bb4;
+    float: right;
+    padding: 0em 1em;
+    transition: all 0.3s;
+    border-radius: 5px;
+    height: 4em;
+    box-shadow: #003d66 0em 0.5em 1em;
+}
+
+.addButtonStyle:hover{
+    background-color: #005C9B;
+}
+
+#buttonsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageArrowStyle{
+    width: 4em;
+    height: 3em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 1em;
+    transition: all 0.3s;
+}
+
+.pageArrowStyle:hover{
+    border: solid 1px #fdc732
+}
+
+
+.actionTextStyle{
+    font-size: 0.9rem;
+    color: white;
+
+}
+
+.actionTextStyle:hover{
+    color: black;
+
+}
+
+h2 {
+    margin-block-end: 0em;
+}
+
+.tableDiv{
+    width: 100%;
+    align-items: center;
+}
+
+
+.tableStyle{
+    overflow-x: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.tableStyle th {
+    font-size: 1rem;
+    /* font-family: 'Source Serif Pro', 'sans-serif'; */
+    background-color: #e6ecf8;
+    /* color: white; */
+    font-weight: 1000;
+    max-width: 130px;
+    min-width: 130px;
+    padding: 0 !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center !important;
+}
+
+.tableStyle tr {
+    height: 3.5rem !important;
+    background-color: white;
+    border-bottom: rgb(215, 227, 253) solid 1px;
+}
+
+.tableStyle tr:nth-of-type(odd) {
+    background-color: '#E5EAF9',
+}
+
+.tableStyle td {
+    font-size: 1rem;
+    font-family: 'Source Serif Pro', 'sans-serif';
+    height: 40px !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+
+#cardsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardStyle{
+    height: 12rem;
+    width: 33%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 2px -1px rgb(152 162 179 / 20%), 0 1px 5px -2px rgb(152 162 179 / 10%);
+    border: 1px solid #d3dae6;
+}
+
+@media only screen and (max-width: 600px){
+    #cardsDiv{
+        flex-direction: column;
+    }
+    .cardStyle{
+        width: 100%;
+    }
+}
+
+
+
+.MuiTableCell-root{
+    border-bottom: none !important;
+}
+
+.MuiPaper-elevation4{
+    box-shadow: none !important;
+}
+
+.MuiAppBar-colorPrimary{
+    background-color: transparent !important;
+}
+
+.MuiTabs-flexContainer {
+    font-family: 'Source Serif Pro', sans-serif;
+    justify-content: space-around;
+}
